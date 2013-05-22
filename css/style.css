@@ -1,0 +1,65 @@
+#dropbox{
+	width:480px;
+	border:4px dotted #ccc;
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px auto;
+}
+
+.wide{
+	height:160px;
+	line-height:160px;
+}
+
+#container{
+	width:480px;
+	margin: 10px auto;
+}
+#dropbox.enter{
+	border-color: #000;
+}
+.alert{
+	line-height: 64px;
+	background: rgba(256, 0, 0, 0.2);
+	border: 4px solid #F00;
+	padding: 0 24px;
+	font-size: 1.2em;
+	color: red;
+}
+
+#container ul{
+	list-style-type: none;
+	padding-left:0;
+	margin-left:0;
+}
+li.file-item{
+	margin: 4px 0;
+	padding: 0 56px 0 8px;
+	line-height: 24px;
+}
+
+li.allowed{
+	background: #EEE;
+	border: 1px solid #00F;
+	color: #00F;
+}
+
+li.not-allowed{
+	background: rgba(256, 0, 0, 0.2) url(../images/red_flag.png) scroll 98% 50% no-repeat;
+	border: 1px solid #F00;
+	color: #F00;
+}
+
+li.not-allowed-size{
+	background: rgba(256, 256, 0, 0.2) url(../images/red_flag.png) scroll 98% 50% no-repeat;
+	border: 1px solid #000;
+	color: #000;
+}
+.filename{
+	font-weight: bold;
+}
+
+img.icon{
+	width:64px;
+	height:64px;
+}

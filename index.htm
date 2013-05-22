@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8" />
+	<title>Web uploader</title>
+	<link href="css/style.css" rel="stylesheet" />
+	<script src="libs/modernizr.js"></script>
+	<script src="js/init.js"></script>
+</head>
+<body class="home">
+	<div id="dropbox">
+		<p>Drop your files here</p>
+		<progress id="bar" value="0" max="100"></progress>
+		<div class="wide">
+			<input type="file" id="fileInput" multiple="true" /> <input
+				type="button" id="uploadBtn" value="no files selected"
+				disabled="disabled" />
+		</div>
+	</div>
+	<div id="container"></div>
+</body>
+</html>
